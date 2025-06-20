@@ -1,0 +1,13 @@
+com\fashionhub\service\UserService.class
+com\fashionhub\EcommerceApplication.class
+com\fashionhub\repository\UserRepository.class
+com\fashionhub\controller\ProductController.class
+com\fashionhub\repository\ProductRepository.class
+com\fashionhub\controller\CategoryController.class
+com\fashionhub\repository\CategoryRepository.class
+com\fashionhub\model\User.class
+com\fashionhub\controller\UserController.class
+com\fashionhub\service\CategoryService.class
+com\fashionhub\service\ProductService.class
+com\fashionhub\model\Category.class
+com\fashionhub\model\Product.class
