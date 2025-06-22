@@ -1,1 +1,7 @@
+com\fashionhub\controller\CategoryControllerTest.class
+com\fashionhub\controller\ProductControllerTest.class
+com\fashionhub\controller\UserControllerTest.class
 com\fashionhub\FashionhubBackendApplicationTests.class
+com\fashionhub\service\ProductServiceTest.class
+com\fashionhub\service\UserServiceTest.class
+com\fashionhub\service\CategoryServiceTest.class

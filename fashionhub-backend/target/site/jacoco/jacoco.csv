@@ -1,0 +1,11 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+fashionhub-backend,com.fashionhub.model,Category,16,15,0,0,8,5,4,5,4,5
+fashionhub-backend,com.fashionhub.model,Product,40,33,0,0,20,11,10,11,10,11
+fashionhub-backend,com.fashionhub.model,User,16,29,0,0,8,11,4,9,4,9
+fashionhub-backend,com.fashionhub.controller,CategoryController,0,10,0,0,0,2,0,2,0,2
+fashionhub-backend,com.fashionhub.controller,UserController,0,22,0,0,0,3,0,3,0,3
+fashionhub-backend,com.fashionhub.controller,ProductController,4,27,2,4,1,6,2,4,0,3
+fashionhub-backend,com.fashionhub.service,ProductService,0,20,0,0,0,4,0,4,0,4
+fashionhub-backend,com.fashionhub.service,UserService,0,28,0,2,0,5,0,4,0,3
+fashionhub-backend,com.fashionhub.service,CategoryService,0,10,0,0,0,2,0,2,0,2
+fashionhub-backend,com.fashionhub,EcommerceApplication,5,3,0,0,2,1,1,1,1,1

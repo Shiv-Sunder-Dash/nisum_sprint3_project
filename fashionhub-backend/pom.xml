@@ -6,7 +6,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.7.18</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/>
 	</parent>
 	<groupId>com.fashionhub</groupId>
 	<artifactId>fashionhub-backend</artifactId>
@@ -28,8 +28,14 @@
 	</scm>
 	<properties>
 		<java.version>17</java.version>
+		<sonar.exclusions>**/model/**,**/repository/**,**/EcommerceApplication.java,**/resources/**,**/config/**</sonar.exclusions>
 	</properties>
 	<dependencies>
+		<dependency>
+			<groupId>org.sonarsource.scanner.maven</groupId>
+			<artifactId>sonar-maven-plugin</artifactId>
+			<version>5.1.0.4751</version>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -53,6 +59,24 @@
 
 	<build>
 		<plugins>
+			<plugin>
+				<groupId>org.jacoco</groupId>
+				<artifactId>jacoco-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<goals>
+							<goal>prepare-agent</goal>
+						</goals>
+					</execution>
+					<execution>
+						<id>report</id>
+						<phase>prepare-package</phase>
+						<goals>
+							<goal>report</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
